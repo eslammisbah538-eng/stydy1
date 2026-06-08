@@ -1,409 +1,494 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LEC 1 — What is Science? | StudyVerse</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEC 1 — What is Science? | StudyVerse</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../../css/main.css">
 </head>
+
 <body>
 
-<div class="bg-pattern"></div>
-<div class="orb orb-1"></div>
-<div class="orb orb-2"></div>
+  <div class="bg-pattern"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
 
-<!-- Top Bar -->
-<div class="cards-topbar">
-  <div class="container">
-    <div class="topbar-inner">
-      <a href="index.html" class="back-btn" style="margin:0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg> المحاضرات</a>
-      <div style="text-align:center">
-        <div class="topbar-title">LEC 1 — What is Science?</div>
-        <div class="topbar-meta">بطاقة <span id="currentCard">1</span> من <span id="totalCards"></span></div>
+  <!-- Top Bar -->
+  <div class="cards-topbar">
+    <div class="container">
+      <div class="topbar-inner">
+        <a href="index.html" class="back-btn" style="margin:0"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+            height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="m9 18 6-6-6-6" />
+          </svg> المحاضرات</a>
+        <div style="text-align:center">
+          <div class="topbar-title">LEC 1 — What is Science?</div>
+          <div class="topbar-meta">بطاقة <span id="currentCard">1</span> من <span id="totalCards"></span></div>
+        </div>
+        <div style="min-width:60px"></div>
       </div>
-      <div style="min-width:60px"></div>
-    </div>
-    <div class="progress-bar-wrap">
-      <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
+      <div class="progress-bar-wrap">
+        <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
+      </div>
     </div>
   </div>
-</div>
 
-<main class="cards-page">
-  <div class="container">
+  <main class="cards-page">
+    <div class="container">
 
-    <!-- ===================== CARDS VIEWPORT ===================== -->
-    <div class="cards-viewport" id="cardsViewport" style="padding-top:24px">
+      <!-- ===================== CARDS VIEWPORT ===================== -->
+      <div class="cards-viewport" id="cardsViewport" style="padding-top:24px">
 
-      <!-- =====================================================
+        <!-- =====================================================
            CARD 1
            ===================================================== -->
-      <div class="card-wrapper">
-        <div class="card-counter">بطاقة <strong id="cardCounter">1</strong></div>
-        <div class="study-card">
-          <div class="card-section-label">1. Definition of Science — تعريف العلم</div>
-          <div class="card-content">
-            <div class="card-eng">
-              The word "science" comes from the Latin word <em>scientia</em>, meaning "to have knowledge."
-            </div>
-            <div class="card-ara">
-              كلمة "science" أصلها لاتيني من كلمة "scientia" ومعناها "امتلاك المعرفة".
+        <div class="card-wrapper">
+          <div class="card-counter">بطاقة <strong id="cardCounter">1</strong></div>
+          <div class="study-card">
+            <div class="card-section-label">1. Definition of Science — تعريف العلم</div>
+            <div class="card-content">
+              <div class="card-eng">
+                The word "science" comes from the Latin word <em>scientia</em>, meaning "to have knowledge."
+              </div>
+              <div class="card-ara">
+                كلمة "science" أصلها لاتيني من كلمة "scientia" ومعناها "امتلاك المعرفة".
+              </div>
             </div>
           </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">1. Definition of Science — تعريف العلم</div>
+            <div class="card-content">
+              <div class="card-eng">
+                Science: a branch of study dedicated to the accumulation and classification of observable facts in order
+                to formulate general laws about the natural world.
+              </div>
+              <div class="card-ara">
+                العلم: فرع دراسي هدفه جمع وتصنيف الحقائق القابلة للملاحظة لصياغة قوانين عامة تفسر العالم الطبيعي.
+              </div>
+              <button class="explain-toggle" data-target="exp2"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                  height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg> اظهر الشرح</button>
+              <div class="card-explain" id="exp2">
+                يعني العلماء مش بس بيلاحظوا — بيصنّفوا ويرتبوا الحقائق، والهدف النهائي إنهم يوصلوا لـ قانون عام يشرح ليه
+                الأشياء بتحصل بالطريقة دي.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">1. Definition of Science — تعريف العلم</div>
+            <div class="card-content">
+              <div class="card-eng">
+                Scientific research: a systematic and critical investigation of natural phenomena to describe, explain,
+                and understand the relations among them.
+              </div>
+              <div class="card-ara">
+                البحث العلمي: تحقيق منهجي ونقدي في الظواهر الطبيعية بهدف وصفها وشرحها وفهم العلاقات بينها.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">2. Scientific Levels — المستويات العلمية</div>
+            <div class="card-content">
+              <div class="card-eng">
+                Order from narrowest to broadest scope:<br>
+                Hypothesis → Generalisation → Theory → Law
+              </div>
+              <div class="card-ara">
+                من الأضيق للأشمل:<br>
+                فرضية ← تعميم ← نظرية ← قانون
+              </div>
+              <div class="compare-box">
+                <div class="compare-label">الفرق بينهم</div>
+                <p>
+                  <strong>Hypothesis (فرضية):</strong> افتراض مبني على دليل محدود يفسر عدد صغير من الحقائق.<br><br>
+                  <strong>Generalisation (تعميم):</strong> فرضية أوسع تشمل ظواهر أكثر.<br><br>
+                  <strong>Theory (نظرية):</strong> تفسر حقائق كثيرة ومترابطة، أقوى من الفرضية بكثير.<br><br>
+                  <strong>Law (قانون):</strong> الأشمل والأثبت — متحقق منه على نطاق واسع جداً.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">2. Role of Theory — دور النظرية</div>
+            <div class="card-content">
+              <div class="card-eng">
+                Theory has 3 roles: (1) summarizes existing knowledge, (2) enables deeper understanding of data, (3)
+                permits prediction of new, previously unknown phenomena.
+              </div>
+              <div class="card-ara">
+                للنظرية 3 أدوار: (1) تلخّص المعرفة الموجودة، (2) تعمّق فهم البيانات، (3) تتنبأ بظواهر جديدة لم تُكتشف
+                بعد.
+              </div>
+              <button class="explain-toggle" data-target="exp5"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                  height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg> اظهر الشرح</button>
+              <div class="card-explain" id="exp5">
+                <strong>مثال من المحاضرة:</strong> الجدول الدوري — لما لاحظوا فراغات في تسلسل العناصر، النظرية قالت
+                المفروض ما يكنش فراغات، فالعلماء دوروا وفعلاً لقوا العناصر الناقصة. يعني النظرية تنبأت بحاجة لم تكن
+                موجودة وقت اكتشافها.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">3. Scientific Method — المنهج العلمي</div>
+            <div class="card-content">
+              <div class="card-eng">
+                Testability is the foremost property of science. Any scientific idea must be testable — if it cannot be
+                tested, it is not science.
+              </div>
+              <div class="card-ara">
+                قابلية الاختبار هي أهم خاصية في العلم. أي فكرة علمية لازم تكون قابلة للاختبار — لو مش قادر تختبرها، مش
+                علم.
+              </div>
+              <button class="explain-toggle" data-target="exp6"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                  height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg> اظهر الشرح</button>
+              <div class="card-explain" id="exp6">
+                ده اللي بيفرق العلم عن الفلسفة أو المعتقد. الفكرة ممكن تبقى صح، بس لو مفيش طريقة تختبرها وتثبتها أو
+                ترفضها — مش بتنضم للعلم.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 7 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">3. Scientific Method — المنهج العلمي</div>
+            <div class="card-content">
+              <div class="card-eng">
+                The hypothetico-deductive method: propose a hypothesis → make a prediction → design a test → others
+                repeat it.
+              </div>
+              <div class="card-ara">
+                المنهج الافتراضي-الاستنتاجي: افترض فرضية ← تنبأ بنتيجة ← صمّم اختباراً ← كرّره آخرون.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 8 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">3. Scientific Method — المنهج العلمي</div>
+            <div class="card-content">
+              <div class="card-eng">
+                Repeatability: if other scientists repeat the same procedure but get different results, the conclusion
+                is NOT accepted.
+              </div>
+              <div class="card-ara">
+                قابلية التكرار: لو عالم تاني عمل نفس التجربة وطلع نتيجة مختلفة — النتيجة الأولى غير مقبولة علمياً.
+              </div>
+              <button class="explain-toggle" data-target="exp8"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                  height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg> اظهر الشرح</button>
+              <div class="card-explain" id="exp8">
+                ده بيحمي العلم من الأخطاء والنتائج المزيفة. التجربة الواحدة مش كافية — لازم يقدر أي عالم تاني يكررها
+                ويوصل لنفس النتيجة.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 9 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">4. Limitations of Science — حدود العلم</div>
+            <div class="card-content">
+              <div class="card-eng">
+                Scientists cannot collect ALL relevant data — they must sample it, and samples may be biased or
+                unrepresentative.
+              </div>
+              <div class="card-ara">
+                العلماء مش قادرين يجمعوا كل البيانات المتعلقة بأي موضوع، فبياخدوا عينة — والعينة ممكن تكون منحازة أو غير
+                ممثلة.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 10 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">4. Limitations of Science — حدود العلم</div>
+            <div class="card-content">
+              <div class="card-eng">
+                Some hypotheses cannot be tested: either too large in scale, or singular events (happened only once in
+                history).
+              </div>
+              <div class="card-ara">
+                بعض الفرضيات مش ممكن تتاختبر: إما لأن حجمها أكبر مما نقدر نجربه، أو لأن الحدث حصل مرة واحدة فقط في
+                التاريخ.
+              </div>
+              <button class="explain-toggle" data-target="exp10"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                  height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg> اظهر الشرح</button>
+              <div class="card-explain" id="exp10">
+                مثال: نشأة الكون (Big Bang) — حدث مرة واحدة، مش قادرين نكرره في معمل. فبنختبره بطريقة غير مباشرة عن طريق
+                الاستنتاج.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 11 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">4. Limitations of Science — حدود العلم</div>
+            <div class="card-content">
+              <div class="card-eng">
+                Anomalies: unexplained cases that don't fit the theory. Sometimes a small number of anomalies causes a
+                major change in the entire theory.
+              </div>
+              <div class="card-ara">
+                الشذوذات: حالات لا تفسرها النظرية. أحياناً عدد صغير منها يتسبب في تغيير جذري في النظرية كلها.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 12 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">5. Ancient Egypt — مصر القديمة</div>
+            <div class="card-content">
+              <div class="card-eng">
+                Ancient Egyptians (~3000 BC) had sophisticated medicine based on trial and error — not the scientific
+                method.
+              </div>
+              <div class="card-ara">
+                المصريون القدماء (~3000 ق.م) كان عندهم طب متطور مبني على التجربة والخطأ — وليس على المنهج العلمي.
+              </div>
+              <button class="explain-toggle" data-target="exp12"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                  height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg> اظهر الشرح</button>
+              <div class="card-explain" id="exp12">
+                مهم جداً: هم كانوا بيجربوا علاجاً، لو نفع كملوا بيه، لو ما نفعش جربوا غيره. ده trial &amp; error وليس
+                scientific method — لأنهم ما كانوش بيصيغوا فرضيات وبيختبروها بمنهج منظم.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 13 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">5. Ancient Egypt — مصر القديمة</div>
+            <div class="card-content">
+              <div class="card-eng">
+                Imhotep (~2650 BC): renowned physician — people traveled from across the Middle East to be treated by
+                him.
+              </div>
+              <div class="card-ara">
+                إمحوتب (~2650 ق.م): طبيب مشهور جداً، كان الناس تأتي من كل الشرق الأوسط ليعالجهم.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 14 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">5. Ancient Egypt — مصر القديمة</div>
+            <div class="card-content">
+              <div class="card-eng">
+                Moldy bread applied to wounds → healed quickly and cleanly. Reason (discovered later): bread mold
+                produces penicillin, which kills germs.
+              </div>
+              <div class="card-ara">
+                خبز متعفن على الجروح → يتعافى بسرعة ونظافة. السبب (اكتُشف لاحقاً): عفن الخبز ينتج البنسيلين الذي يقتل
+                الجراثيم.
+              </div>
+              <button class="explain-toggle" data-target="exp14"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                  height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg> اظهر الشرح</button>
+              <div class="card-explain" id="exp14">
+                المصريون عملوا الصح بدون ما يفهموا ليه. العلم الحديث هو اللي فسّر السبب بعد آلاف السنين. ده مثال ممتاز
+                على الفرق بين trial &amp; error والعلم الحقيقي.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 15 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">5. Ancient Egypt — مصر القديمة</div>
+            <div class="card-content">
+              <div class="card-eng">
+                Poppy seeds (الخشخاش) → pain relief. Reason: they contain morphine and codeine, powerful pain-relieving
+                drugs still used today.
+              </div>
+              <div class="card-ara">
+                بذور الخشخاش → تخفيف الألم. السبب: تحتوي على المورفين والكوديين، وهما مسكّنا ألم قويان لا يزالان
+                مستخدمَين حتى اليوم.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 16 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">5. Ancient Egypt — مصر القديمة</div>
+            <div class="card-content">
+              <div class="card-eng">
+                Papyrus: a primitive form of paper — revolutionized knowledge transfer. Easy to roll into scrolls,
+                store, and transport.
+              </div>
+              <div class="card-ara">
+                البردي: شكل بدائي من الورق — أحدث ثورة في نقل المعرفة. سهل لفّه في لفافات وتخزينه ونقله.
+              </div>
+              <button class="explain-toggle" data-target="exp16"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                  height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg> اظهر الشرح</button>
+              <div class="card-explain" id="exp16">
+                قبل البردي: الكتابة على ألواح طين أو صخور — صعبة الحمل والتخزين. البردي غيّر كل ده. المعرفة انتقلت من
+                عالم لآخر ومن جيل لجيل بسهولة، وده اللي خلّى الطب المصري يتطور ويبقى الأقوى في عصره.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 17 -->
+        <div class="card-wrapper">
+          <div class="study-card">
+            <div class="card-section-label">6. Other Ancient Civilizations — حضارات أخرى</div>
+            <div class="card-content">
+              <div class="card-eng">
+                Mesopotamians → first potter's wheel.<br>
+                Sumerians → horse-drawn chariots.<br>
+                Chinese (~1000 BC) → compass.
+              </div>
+              <div class="card-ara">
+                المسوبوتاميون → عجلة الفخار الأولى.<br>
+                السومريون → العربات التي تجرها الخيول.<br>
+                الصينيون (~1000 ق.م) → البوصلة.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 18 — EXAM FOCUS -->
+        <div class="card-wrapper">
+
         </div>
       </div>
+    </div>
 
-      <!-- CARD 2 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">1. Definition of Science — تعريف العلم</div>
-          <div class="card-content">
-            <div class="card-eng">
-              Science: a branch of study dedicated to the accumulation and classification of observable facts in order to formulate general laws about the natural world.
-            </div>
-            <div class="card-ara">
-              العلم: فرع دراسي هدفه جمع وتصنيف الحقائق القابلة للملاحظة لصياغة قوانين عامة تفسر العالم الطبيعي.
-            </div>
-            <button class="explain-toggle" data-target="exp2"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg> اظهر الشرح</button>
-            <div class="card-explain" id="exp2">
-              يعني العلماء مش بس بيلاحظوا — بيصنّفوا ويرتبوا الحقائق، والهدف النهائي إنهم يوصلوا لـ قانون عام يشرح ليه الأشياء بتحصل بالطريقة دي.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 3 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">1. Definition of Science — تعريف العلم</div>
-          <div class="card-content">
-            <div class="card-eng">
-              Scientific research: a systematic and critical investigation of natural phenomena to describe, explain, and understand the relations among them.
-            </div>
-            <div class="card-ara">
-              البحث العلمي: تحقيق منهجي ونقدي في الظواهر الطبيعية بهدف وصفها وشرحها وفهم العلاقات بينها.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 4 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">2. Scientific Levels — المستويات العلمية</div>
-          <div class="card-content">
-            <div class="card-eng">
-              Order from narrowest to broadest scope:<br>
-              Hypothesis → Generalisation → Theory → Law
-            </div>
-            <div class="card-ara">
-              من الأضيق للأشمل:<br>
-              فرضية ← تعميم ← نظرية ← قانون
-            </div>
-            <div class="compare-box">
-              <div class="compare-label">الفرق بينهم</div>
-              <p>
-                <strong>Hypothesis (فرضية):</strong> افتراض مبني على دليل محدود يفسر عدد صغير من الحقائق.<br><br>
-                <strong>Generalisation (تعميم):</strong> فرضية أوسع تشمل ظواهر أكثر.<br><br>
-                <strong>Theory (نظرية):</strong> تفسر حقائق كثيرة ومترابطة، أقوى من الفرضية بكثير.<br><br>
-                <strong>Law (قانون):</strong> الأشمل والأثبت — متحقق منه على نطاق واسع جداً.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 5 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">2. Role of Theory — دور النظرية</div>
-          <div class="card-content">
-            <div class="card-eng">
-              Theory has 3 roles: (1) summarizes existing knowledge, (2) enables deeper understanding of data, (3) permits prediction of new, previously unknown phenomena.
-            </div>
-            <div class="card-ara">
-              للنظرية 3 أدوار: (1) تلخّص المعرفة الموجودة، (2) تعمّق فهم البيانات، (3) تتنبأ بظواهر جديدة لم تُكتشف بعد.
-            </div>
-            <button class="explain-toggle" data-target="exp5"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg> اظهر الشرح</button>
-            <div class="card-explain" id="exp5">
-              <strong>مثال من المحاضرة:</strong> الجدول الدوري — لما لاحظوا فراغات في تسلسل العناصر، النظرية قالت المفروض ما يكنش فراغات، فالعلماء دوروا وفعلاً لقوا العناصر الناقصة. يعني النظرية تنبأت بحاجة لم تكن موجودة وقت اكتشافها.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 6 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">3. Scientific Method — المنهج العلمي</div>
-          <div class="card-content">
-            <div class="card-eng">
-              Testability is the foremost property of science. Any scientific idea must be testable — if it cannot be tested, it is not science.
-            </div>
-            <div class="card-ara">
-              قابلية الاختبار هي أهم خاصية في العلم. أي فكرة علمية لازم تكون قابلة للاختبار — لو مش قادر تختبرها، مش علم.
-            </div>
-            <button class="explain-toggle" data-target="exp6"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg> اظهر الشرح</button>
-            <div class="card-explain" id="exp6">
-              ده اللي بيفرق العلم عن الفلسفة أو المعتقد. الفكرة ممكن تبقى صح، بس لو مفيش طريقة تختبرها وتثبتها أو ترفضها — مش بتنضم للعلم.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 7 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">3. Scientific Method — المنهج العلمي</div>
-          <div class="card-content">
-            <div class="card-eng">
-              The hypothetico-deductive method: propose a hypothesis → make a prediction → design a test → others repeat it.
-            </div>
-            <div class="card-ara">
-              المنهج الافتراضي-الاستنتاجي: افترض فرضية ← تنبأ بنتيجة ← صمّم اختباراً ← كرّره آخرون.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 8 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">3. Scientific Method — المنهج العلمي</div>
-          <div class="card-content">
-            <div class="card-eng">
-              Repeatability: if other scientists repeat the same procedure but get different results, the conclusion is NOT accepted.
-            </div>
-            <div class="card-ara">
-              قابلية التكرار: لو عالم تاني عمل نفس التجربة وطلع نتيجة مختلفة — النتيجة الأولى غير مقبولة علمياً.
-            </div>
-            <button class="explain-toggle" data-target="exp8"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg> اظهر الشرح</button>
-            <div class="card-explain" id="exp8">
-              ده بيحمي العلم من الأخطاء والنتائج المزيفة. التجربة الواحدة مش كافية — لازم يقدر أي عالم تاني يكررها ويوصل لنفس النتيجة.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 9 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">4. Limitations of Science — حدود العلم</div>
-          <div class="card-content">
-            <div class="card-eng">
-              Scientists cannot collect ALL relevant data — they must sample it, and samples may be biased or unrepresentative.
-            </div>
-            <div class="card-ara">
-              العلماء مش قادرين يجمعوا كل البيانات المتعلقة بأي موضوع، فبياخدوا عينة — والعينة ممكن تكون منحازة أو غير ممثلة.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 10 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">4. Limitations of Science — حدود العلم</div>
-          <div class="card-content">
-            <div class="card-eng">
-              Some hypotheses cannot be tested: either too large in scale, or singular events (happened only once in history).
-            </div>
-            <div class="card-ara">
-              بعض الفرضيات مش ممكن تتاختبر: إما لأن حجمها أكبر مما نقدر نجربه، أو لأن الحدث حصل مرة واحدة فقط في التاريخ.
-            </div>
-            <button class="explain-toggle" data-target="exp10"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg> اظهر الشرح</button>
-            <div class="card-explain" id="exp10">
-              مثال: نشأة الكون (Big Bang) — حدث مرة واحدة، مش قادرين نكرره في معمل. فبنختبره بطريقة غير مباشرة عن طريق الاستنتاج.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 11 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">4. Limitations of Science — حدود العلم</div>
-          <div class="card-content">
-            <div class="card-eng">
-              Anomalies: unexplained cases that don't fit the theory. Sometimes a small number of anomalies causes a major change in the entire theory.
-            </div>
-            <div class="card-ara">
-              الشذوذات: حالات لا تفسرها النظرية. أحياناً عدد صغير منها يتسبب في تغيير جذري في النظرية كلها.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 12 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">5. Ancient Egypt — مصر القديمة</div>
-          <div class="card-content">
-            <div class="card-eng">
-              Ancient Egyptians (~3000 BC) had sophisticated medicine based on trial and error — not the scientific method.
-            </div>
-            <div class="card-ara">
-              المصريون القدماء (~3000 ق.م) كان عندهم طب متطور مبني على التجربة والخطأ — وليس على المنهج العلمي.
-            </div>
-            <button class="explain-toggle" data-target="exp12"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg> اظهر الشرح</button>
-            <div class="card-explain" id="exp12">
-              مهم جداً: هم كانوا بيجربوا علاجاً، لو نفع كملوا بيه، لو ما نفعش جربوا غيره. ده trial &amp; error وليس scientific method — لأنهم ما كانوش بيصيغوا فرضيات وبيختبروها بمنهج منظم.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 13 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">5. Ancient Egypt — مصر القديمة</div>
-          <div class="card-content">
-            <div class="card-eng">
-              Imhotep (~2650 BC): renowned physician — people traveled from across the Middle East to be treated by him.
-            </div>
-            <div class="card-ara">
-              إمحوتب (~2650 ق.م): طبيب مشهور جداً، كان الناس تأتي من كل الشرق الأوسط ليعالجهم.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 14 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">5. Ancient Egypt — مصر القديمة</div>
-          <div class="card-content">
-            <div class="card-eng">
-              Moldy bread applied to wounds → healed quickly and cleanly. Reason (discovered later): bread mold produces penicillin, which kills germs.
-            </div>
-            <div class="card-ara">
-              خبز متعفن على الجروح → يتعافى بسرعة ونظافة. السبب (اكتُشف لاحقاً): عفن الخبز ينتج البنسيلين الذي يقتل الجراثيم.
-            </div>
-            <button class="explain-toggle" data-target="exp14"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg> اظهر الشرح</button>
-            <div class="card-explain" id="exp14">
-              المصريون عملوا الصح بدون ما يفهموا ليه. العلم الحديث هو اللي فسّر السبب بعد آلاف السنين. ده مثال ممتاز على الفرق بين trial &amp; error والعلم الحقيقي.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 15 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">5. Ancient Egypt — مصر القديمة</div>
-          <div class="card-content">
-            <div class="card-eng">
-              Poppy seeds (الخشخاش) → pain relief. Reason: they contain morphine and codeine, powerful pain-relieving drugs still used today.
-            </div>
-            <div class="card-ara">
-              بذور الخشخاش → تخفيف الألم. السبب: تحتوي على المورفين والكوديين، وهما مسكّنا ألم قويان لا يزالان مستخدمَين حتى اليوم.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 16 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">5. Ancient Egypt — مصر القديمة</div>
-          <div class="card-content">
-            <div class="card-eng">
-              Papyrus: a primitive form of paper — revolutionized knowledge transfer. Easy to roll into scrolls, store, and transport.
-            </div>
-            <div class="card-ara">
-              البردي: شكل بدائي من الورق — أحدث ثورة في نقل المعرفة. سهل لفّه في لفافات وتخزينه ونقله.
-            </div>
-            <button class="explain-toggle" data-target="exp16"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg> اظهر الشرح</button>
-            <div class="card-explain" id="exp16">
-              قبل البردي: الكتابة على ألواح طين أو صخور — صعبة الحمل والتخزين. البردي غيّر كل ده. المعرفة انتقلت من عالم لآخر ومن جيل لجيل بسهولة، وده اللي خلّى الطب المصري يتطور ويبقى الأقوى في عصره.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 17 -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">6. Other Ancient Civilizations — حضارات أخرى</div>
-          <div class="card-content">
-            <div class="card-eng">
-              Mesopotamians → first potter's wheel.<br>
-              Sumerians → horse-drawn chariots.<br>
-              Chinese (~1000 BC) → compass.
-            </div>
-            <div class="card-ara">
-              المسوبوتاميون → عجلة الفخار الأولى.<br>
-              السومريون → العربات التي تجرها الخيول.<br>
-              الصينيون (~1000 ق.م) → البوصلة.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 18 — EXAM FOCUS -->
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-content">
-            <div class="exam-focus">
-                 
-            </div>
-          </div>
-        </div>
-
-        <!-- Action buttons -->
-        <div style="padding:0 0 16=px">
-          <!-- ================================================
+    <!-- Action buttons -->
+    <div style="padding:0 0 16=px">
+      <!-- ================================================
                لينك الأسئلة — حط الرابط هنا
                ================================================ -->
-        
-          <!-- ================================================
-               لينك PDF — حط رابط Google Drive هنا
-               ================================================ -->
-          <a href="https://gemini.google.com/share/5f6cff665459" target="_blank" class="pdf-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg> تحميل مذكرة المحاضرة
-          </a>
-        </div>
-      </div>
+
+    </div>
+    </div>
 
     </div><!-- end cardsViewport -->
 
     <!-- ===================== COMPLETION SCREEN ===================== -->
     <div class="completion-screen" id="completionScreen">
-      <div class="completion-icon"><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+      <div class="completion-icon"><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+          <polyline points="22 4 12 14.01 9 11.01" />
+        </svg></div>
       <h2 class="completion-title">خلصت المحاضرة!</h2>
       <p class="completion-sub">
         عظيم — راجعت كل البطاقات.<br>
         دلوقتي حل الأسئلة وأكد فهمك.
       </p>
       <div class="completion-actions">
-        <a href="<!-- QUESTIONS LINK LEC 1 -->" target="_blank" class="questions-btn">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg> أسئلة المحاضرة الأولى
+        <a href="https://gemini.google.com/share/5f6cff665459" target="_blank" class="questions-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+            <path d="M12 17h.01" />
+          </svg> أسئلة المحاضرة الأولى
         </a>
         <a href="<!-- PDF LINK LEC 1 -->" target="_blank" class="pdf-btn">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg> تحميل المذكرة
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+            <polyline points="14 2 14 8 20 8" />
+          </svg> تحميل المذكرة
         </a>
         <a href="index.html" class="pdf-btn" style="margin-top:4px">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg> المحاضرة التالية
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m15 18-6-6 6-6" />
+          </svg> المحاضرة التالية
         </a>
       </div>
     </div>
 
-  </div><!-- end container -->
-</main>
+    </div><!-- end container -->
+  </main>
 
-<!-- Bottom Nav -->
-<div class="cards-nav">
-  <div class="container">
-    <button class="nav-btn" id="btnPrev" disabled><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg> <span>السابق</span></button>
-    <div class="nav-center">
-      <span id="currentCard">1</span> / <span id="totalCards"></span>
+  <!-- Bottom Nav -->
+  <div class="cards-nav">
+    <div class="container">
+      <button class="nav-btn" id="btnPrev" disabled><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+          viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path d="m9 18 6-6-6-6" />
+        </svg> <span>السابق</span></button>
+      <div class="nav-center">
+        <span id="currentCard">1</span> / <span id="totalCards"></span>
+      </div>
+      <button class="nav-btn primary" id="btnNext"><span>التالي</span> <svg xmlns="http://www.w3.org/2000/svg"
+          width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="m15 18-6-6 6-6" />
+        </svg></button>
     </div>
-    <button class="nav-btn primary" id="btnNext"><span>التالي</span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
   </div>
-</div>
 
-<script src="../../js/cards.js"></script>
+  <script src="../../js/cards.js"></script>
 </body>
+
 </html>
