@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LEC 3 — StudyVerse</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+<div class="bg-pattern"></div>
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+
+<div class="cards-topbar">
+  <div class="container">
+    <div class="topbar-inner">
+      <a href="index.html" class="back-btn" style="margin:0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg> المحاضرات</a>
+      <div style="text-align:center">
+        <div class="topbar-title">LEC 3 — <!-- LECTURE TITLE HERE --></div>
+        <div class="topbar-meta">بطاقة <span id="currentCard">1</span> من <span id="totalCards"></span></div>
+      </div>
+      <div style="min-width:60px"></div>
+    </div>
+    <div class="progress-bar-wrap">
+      <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
+    </div>
+  </div>
+</div>
+
+<main class="cards-page">
+  <div class="container">
+    <div class="cards-viewport" id="cardsViewport" style="padding-top:24px">
+
+    <!-- بطاقة 1 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">5. The Progress of Science Stalls — توقف تقدم العلوم</div>
+        <div class="card-content">
+          <div class="card-eng">From Thales to ~500 A.D., science progressed at a dizzying rate.</div>
+          <div class="card-ara">من عهد طاليس حتى ٥٠٠م، تقدّم العلم بوتيرة سريعة جداً.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 2 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">5. The Progress of Science Stalls — توقف تقدم العلوم</div>
+        <div class="card-content">
+          <div class="card-eng">After the first few centuries A.D., the progress of science stalled dramatically.</div>
+          <div class="card-ara">بعد القرون الأولى للميلاد، توقف تقدم العلم توقفاً حاداً.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 3 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">5. The Progress of Science Stalls — توقف تقدم العلوم</div>
+        <div class="card-content">
+          <div class="card-eng">Rome liked inventions that boosted productivity but had little use for explaining how the
+            world works.</div>
+          <div class="card-ara">روما أحبت الاختراعات المنتجة لكنها لم تهتم بتفسير الطبيعة.</div>
+          <button class="explain-toggle" data-target="exp3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9" />
+            </svg> اظهر الشرح
+          </button>
+          <div class="card-explain" id="exp3">
+            الرومان عايزين أدوات تشتغل، مش عايزين حد يسأل "ليه؟" — الاختراع غير العلم.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 4 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">5. The Progress of Science Stalls — توقف تقدم العلوم</div>
+        <div class="card-content">
+          <div class="card-eng">Science was actively discouraged in most parts of the world during this period.</div>
+          <div class="card-ara">تم تثبيط العلم بشكل نشط في معظم أنحاء العالم في هذه الفترة.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 5 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">5. The Progress of Science Stalls — توقف تقدم العلوم</div>
+        <div class="card-content">
+          <div class="card-eng">Alchemy is one of the best examples of what passed for science during the Dark Ages.</div>
+          <div class="card-ara">الخيمياء من أبرز أمثلة ما كان يُعدّ علماً في العصور المظلمة.</div>
+          <button class="explain-toggle" data-target="exp5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9" />
+            </svg> اظهر الشرح
+          </button>
+          <div class="card-explain" id="exp5">
+            مش كيمياء حقيقية — محاولات شبه سحرية لتحويل الرصاص لذهب بدون أساس نظري.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 6 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">5. The Progress of Science Stalls — توقف تقدم العلوم</div>
+        <div class="card-content">
+          <div class="card-eng">Alchemists mostly wanted to transform lead into gold.</div>
+          <div class="card-ara">كان الهدف الأساسي للخيميائيين تحويل الرصاص إلى ذهب.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 7 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">5. The Progress of Science Stalls — توقف تقدم العلوم</div>
+        <div class="card-content">
+          <div class="card-eng">In a chemical reaction, one or more substances interact to form one or more new substances.
+          </div>
+          <div class="card-ara">في التفاعل الكيميائي، تتفاعل مادة أو أكثر لتكوّن موادّ جديدة.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 8 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">5. The Progress of Science Stalls — توقف تقدم العلوم</div>
+        <div class="card-content">
+          <div class="card-eng">Vinegar + baking soda → CO₂ (inflates balloon) + water. Anthocyanin in red cabbage causes
+            the color to shift from pink to blue as vinegar is used up.</div>
+          <div class="card-ara">خل + صودا خبز ← CO₂ (ينفخ البالون) + ماء. مادة الأنثوسيانين في الكرنب تسبب تغيير اللون من
+            وردي لأزرق لما الخل يخلص.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 9 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">5. The Progress of Science Stalls — توقف تقدم العلوم</div>
+        <div class="card-content">
+          <div class="card-eng">Alchemists learned only by trial and error; they never drew conclusions about how the
+            natural world works.</div>
+          <div class="card-ara">تعلّم الخيميائيون بالتجربة والخطأ فقط ولم يستنتجوا قواعد عامة عن الطبيعة.</div>
+          <div class="compare-box">
+            <div class="compare-label">الفرق</div>
+            <p>
+              <strong>الخيمياء:</strong> ملاحظة بدون تفسير — يسجلون ويمشون<br><br>
+              <strong>العلم الحديث:</strong> ملاحظة ← استنتاج ← نظرية
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 10 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">5. The Progress of Science Stalls — توقف تقدم العلوم</div>
+        <div class="card-content">
+          <div class="card-eng">Science thrives on the free exchange of ideas between scientists.</div>
+          <div class="card-ara">يزدهر العلم بالتبادل الحر للأفكار بين العلماء.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 11 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">5. The Progress of Science Stalls — توقف تقدم العلوم</div>
+        <div class="card-content">
+          <div class="card-eng">Scientific progress depends not only on scientists, but also on government and culture.
+          </div>
+          <div class="card-ara">تقدم العلم لا يعتمد على العلماء فقط، بل أيضاً على الحكومة والثقافة.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 12 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">5. The Progress of Science Stalls — توقف تقدم العلوم</div>
+        <div class="card-content">
+          <div class="card-eng">Roman Catholic monks preserved scientific knowledge by copying it into large encyclopedias.
+          </div>
+          <div class="card-ara">حفظ الرهبان الكاثوليك المعرفة العلمية بنسخها في موسوعات ضخمة.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 13 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">5. The Progress of Science Stalls — توقف تقدم العلوم</div>
+        <div class="card-content">
+          <div class="card-eng">Chinese records from 1054 A.D. were used by modern scientists to identify a supernova — the
+            explosion of a star — whose remnant is the Crab Nebula.</div>
+          <div class="card-ara">سجلات صينية من ١٠٥٤م استخدمها العلماء الحديثون لتحديد مستعر أعظم (انفجار نجم) — بقاياه هو
+            سديم السرطان.</div>
+          <button class="explain-toggle" data-target="exp13">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9" />
+            </svg> اظهر الشرح
+          </button>
+          <div class="card-explain" id="exp13">
+            الصينيين ماكانوش فاهمين اللي شافوه بس سجلوه بدقة — ده وحده كفى إن العلم الحديث يستفيد منه بعد ١٠٠٠ سنة.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 14 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">5. The Progress of Science Stalls — توقف تقدم العلوم</div>
+        <div class="card-content">
+          <div class="card-eng">To advance science, we must study and preserve the works of scientists who came before us.
+          </div>
+          <div class="card-ara">لتقدم العلم، يجب دراسة وحفظ أعمال العلماء السابقين.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 15 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">6. The Golden Age of Arab Science — العصر الذهبي للعلوم العربية</div>
+        <div class="card-content">
+          <div class="card-eng">The Islamic Golden Age lasted from the mid-7th to mid-13th century — a time of great
+            scientific achievements.</div>
+          <div class="card-ara">امتد العصر الذهبي الإسلامي من منتصف القرن السابع حتى منتصف القرن الثالث عشر.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 16 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">6. The Golden Age of Arab Science — العصر الذهبي للعلوم العربية</div>
+        <div class="card-content">
+          <div class="card-eng">Scholars translated works from Greek, Latin, and other languages into Arabic. The House of
+            Wisdom in Baghdad was the center of this movement.</div>
+          <div class="card-ara">ترجم العلماء أعمالاً من اليونانية واللاتينية للعربية. وكان بيت الحكمة في بغداد مركز هذه
+            الحركة.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 17 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">6. The Golden Age of Arab Science — العصر الذهبي للعلوم العربية</div>
+        <div class="card-content">
+          <div class="card-eng">Ibn al-Haytham: founder of optics (laws of refraction), invented the camera obscura, and is
+            considered the founder of the modern scientific method.</div>
+          <div class="card-ara">ابن الهيثم: أبو علم البصريات (قوانين الانكسار)، مخترع الغرفة المظلمة، ومؤسس المنهج العلمي
+            الحديث.</div>
+          <button class="explain-toggle" data-target="exp17">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9" />
+            </svg> اظهر الشرح
+          </button>
+          <div class="card-explain" id="exp17">
+            المنهج العلمي الحديث = لازم تثبت النظرية بتجربة عملية، مش بس كلام — ده اللي ابن الهيثم أصرّ عليه.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 18 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">6. The Golden Age of Arab Science — العصر الذهبي للعلوم العربية</div>
+        <div class="card-content">
+          <div class="card-eng">The University of Al Karaouine in Fez, Morocco (founded 859 CE) is the oldest university in
+            the world.</div>
+          <div class="card-ara">جامعة القرويين في فاس، المغرب (تأسست ٨٥٩م) هي أقدم جامعة في العالم.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 19 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">6. The Golden Age of Arab Science — العصر الذهبي للعلوم العربية</div>
+        <div class="card-content">
+          <div class="card-eng">Al-Tusi created the Tusi Couple and a more accurate earth-centered planetary model.
+            Copernicus later drew from al-Tusi's model when theorizing that Earth revolves around the sun.</div>
+          <div class="card-ara">الطوسي أنشأ زوج الطوسي ونموذجاً فلكياً أدق. كوبرنيكوس استعان من نموذجه لاحقاً في نظريته
+            بدوران الأرض حول الشمس.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 20 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">6. The Golden Age of Arab Science — العصر الذهبي للعلوم العربية</div>
+        <div class="card-content">
+          <div class="card-eng">Al-Razi (Rhazes): differentiated smallpox from measles; wrote Al-Hawi — a 30-volume medical
+            encyclopedia.</div>
+          <div class="card-ara">الرازي: فرّق بين الجدري والحصبة؛ وكتب الحاوي — موسوعة طبية من ٣٠ مجلداً.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 21 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">6. The Golden Age of Arab Science — العصر الذهبي للعلوم العربية</div>
+        <div class="card-content">
+          <div class="card-eng">Az-Zahrawi (Abulcasis): father of surgery — performed tracheotomy and lithotomy, introduced
+            the use of cotton in medicine.</div>
+          <div class="card-ara">الزهراوي: أبو الجراحة — أجرى فتح القصبة الهوائية وتفتيت الحصاة، وأدخل استخدام القطن في الطب.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 22 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">6. The Golden Age of Arab Science — العصر الذهبي للعلوم العربية</div>
+        <div class="card-content">
+          <div class="card-eng">Ibn Sina (Avicenna): differentiated meningitis from neurologic diseases; his al-Qanun fil
+            Tibb was the absolute authority in medicine for 500 years.</div>
+          <div class="card-ara">ابن سينا: ميّز التهاب السحايا عن الأمراض العصبية؛ وكان "القانون في الطب" المرجع الطبي المطلق
+            لـ٥٠٠ سنة.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 23 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">6. The Golden Age of Arab Science — العصر الذهبي للعلوم العربية</div>
+        <div class="card-content">
+          <div class="card-eng">Ibn-Nafis studied and described pulmonary circulation. The first hospital was established in
+            Damascus in 706 CE; the most important one in Baghdad in 982 CE.</div>
+          <div class="card-ara">ابن النفيس وصف الدورة الدموية الرئوية. أول مستشفى في دمشق ٧٠٦م، وأهمها في بغداد ٩٨٢م.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 24 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">6. The Golden Age of Arab Science — العصر الذهبي للعلوم العربية</div>
+        <div class="card-content">
+          <div class="card-eng">Ibn al-Baytar wrote an alphabetical guide to over 1400 medicinal substances. The first
+            pharmacies were established in Baghdad in 754 CE.</div>
+          <div class="card-ara">ابن البيطار كتب دليلاً أبجدياً لأكثر من ١٤٠٠ مادة طبية. وأُنشئت أول الصيدليات في بغداد ٧٥٤م.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 25 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">6. The Golden Age of Arab Science — العصر الذهبي للعلوم العربية</div>
+        <div class="card-content">
+          <div class="card-eng">Al-Khwarizmi was the greatest arithmetician and algebraist; his work greatly influenced
+            medieval mathematics.</div>
+          <div class="card-ara">الخوارزمي أعظم علماء الحساب والجبر؛ أثّر عمله تأثيراً كبيراً في رياضيات العصور الوسطى.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 26 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">6. The Golden Age of Arab Science — العصر الذهبي للعلوم العربية</div>
+        <div class="card-content">
+          <div class="card-eng">Jabir Ibn Haiyan introduced experimentation in chemistry, leading science from alchemy to
+            modern chemistry.</div>
+          <div class="card-ara">جابر بن حيان أدخل التجريب في الكيمياء، مما قاد العلم من الخيمياء إلى الكيمياء الحديثة.</div>
+          <div class="compare-box">
+            <div class="compare-label">الخيمياء vs الكيمياء الحديثة</div>
+            <p>
+              <strong>الخيمياء:</strong> تجارب عشوائية بدون منهج لتحويل المعادن لذهب<br><br>
+              <strong>الكيمياء (بعد جابر):</strong> تجريب منهجي ونتائج قابلة للتكرار
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- بطاقة 27 -->
+    <div class="card-wrapper">
+      <div class="study-card">
+        <div class="card-section-label">6. The Golden Age of Arab Science — العصر الذهبي للعلوم العربية</div>
+        <div class="card-content">
+          <div class="card-eng">Al-Jazari (1136–1206) was a prolific inventor who developed water innovations: underground
+            channels, windmills, and waterwheels.</div>
+          <div class="card-ara">الجزري (١١٣٦–١٢٠٦) مخترع غزير أبتكر أنظمة الري: قنوات جوفية وطواحين هواء وعجلات ماء.</div>
+        </div>
+      </div>
+    </div>
+
+
+           
+
+      <!-- EXAMPLE CARD STRUCTURE:
+
+      <div class="card-wrapper">
+        <div class="study-card">
+          <div class="card-section-label">Section Name</div>
+          <div class="card-content">
+            <div class="card-eng">English sentence here.</div>
+            <div class="card-ara">الترجمة العربية هنا.</div>
+            <button class="explain-toggle" data-target="expX">▼ اظهر الشرح</button>
+            <div class="card-explain" id="expX">
+              الشرح هنا لو محتاج.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      -->
+
+      <!-- LAST CARD — Questions & PDF links -->
+      <div class="card-wrapper">
+        <!-- <div class="study-card"> -->
+          <!-- <div class="card-section-label" style="background:#534AB7">⭐ Exam Focus</div> -->
+          <!-- <div class="card-content"> -->
+            <!-- <div class="exam-focus"> -->
+              <!-- <div class="exam-label">⭐ Exam questions will appear here after adding content</div> -->
+              <p><!-- أسئلة متوقعة هنا --></p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="completion-screen" id="completionScreen">
+      <div class="completion-icon">🎉</div>
+      <h2 class="completion-title">خلصت المحاضرة!</h2>
+      <p class="completion-sub">عظيم — راجعت كل البطاقات.<br>دلوقتي حل الأسئلة وأكد فهمك.</p>
+      <div class="completion-actions">
+        <a href="https://gemini.google.com/share/7707ef506ec7" target="_blank" class="questions-btn"> أسئلة المحاضرة</a>
+        <a href="<!-- PDF LINK LEC 3 -->"      target="_blank" class="pdf-btn"> تحميل المذكرة</a>
+        <a href="lec-4.html" class="pdf-btn" style="margin-top:4px">→ المحاضرة التالية</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="cards-nav">
+  <div class="container">
+    <button class="nav-btn" id="btnPrev" disabled><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg> <span>السابق</span></button>
+    <div class="nav-center"><span id="currentCard">1</span> / <span id="totalCards"></span></div>
+    <button class="nav-btn primary" id="btnNext"><span>التالي</span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+  </div>
+</div>
+
+<script src="../../js/cards.js"></script>
+</body>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LEC 4 — StudyVerse</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+<div class="bg-pattern"></div>
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+
+<div class="cards-topbar">
+  <div class="container">
+    <div class="topbar-inner">
+      <a href="index.html" class="back-btn" style="margin:0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg> المحاضرات</a>
+      <div style="text-align:center">
+        <div class="topbar-title">LEC 4 — <!-- LECTURE TITLE HERE --></div>
+        <div class="topbar-meta">بطاقة <span id="currentCard">1</span> من <span id="totalCards"></span></div>
+      </div>
+      <div style="min-width:60px"></div>
+    </div>
+    <div class="progress-bar-wrap">
+      <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
+    </div>
+  </div>
+</div>
+
+<main class="cards-page">
+  <div class="container">
+    <div class="cards-viewport" id="cardsViewport" style="padding-top:24px">
+
+      <!-- بطاقة 1 -->
+      <div class="card-wrapper">
+        <div class="study-card">
+          <div class="card-section-label">7. Science Picks Up Speed Again — عودة تقدم العلوم (1000–1500م)</div>
+          <div class="card-content">
+            <div class="card-eng">Robert Grosseteste (early 1200s): taught that science should explain WHY things happen, not
+              just invent things. He taught that a scientist makes observations then gives a tentative explanation — so he is
+              called the father of the scientific method.</div>
+            <div class="card-ara">روبرت غروستيست (مطلع ١٢٠٠م): علّم أن العلم يجب أن يشرح لماذا تحدث الأشياء لا أن يخترع فقط.
+              العالم يلاحظ ثم يضع تفسيراً مبدئياً — لذا يُلقّب بأبي المنهج العلمي.</div>
+            <button class="explain-toggle" data-target="exp1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9" />
+              </svg> اظهر الشرح
+            </button>
+            <div class="card-explain" id="exp1">
+              الفرق: المخترع شايف إن الماية بتغلي وبيعمل بخار يشغّل ماكينة. العالم بيسأل "ليه الماية بتغلي أصلاً؟" — غروستيست
+              هو اللي قال إن السؤال الثاني ده هو العلم الحقيقي.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- بطاقة 2 -->
+      <div class="card-wrapper">
+        <div class="study-card">
+          <div class="card-section-label">7. Science Picks Up Speed Again — عودة تقدم العلوم (1000–1500م)</div>
+          <div class="card-content">
+            <div class="card-eng">Roger Bacon strongly advocated the scientific method and used experiments to break
+              superstition — e.g. he proved goat's blood has no effect on diamonds. He also predicted flying machines,
+              submarines, and worldwide travel.</div>
+            <div class="card-ara">روجر بيكون دافع بقوة عن المنهج العلمي وكسر الخرافات بالتجربة — أثبت أن دم الماعز لا يكسر
+              الماس. وتنبّأ بالطائرات والغوّاصات والسفر العالمي.</div>
+            <button class="explain-toggle" data-target="exp2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9" />
+              </svg> اظهر الشرح
+            </button>
+            <div class="card-explain" id="exp2">
+              ناس زمانه ضحكوا عليه لما قال هتتعمل ماكينة تطير. دلوقتي المؤرخين بيتعجبوا من ذكاؤه. ده بيثبت إن العلم الحقيقي
+              بياخد وقت قبل ما الناس تصدّقه.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- بطاقة 3 -->
+      <div class="card-wrapper">
+        <div class="study-card">
+          <div class="card-section-label">7. Science Picks Up Speed Again — عودة تقدم العلوم (1000–1500م)</div>
+          <div class="card-content">
+            <div class="card-eng">Thomas Bradwardine applied mathematics to motion, developed equations for speed and
+              distance, and proved most of Aristotle's ideas about motion were wrong.</div>
+            <div class="card-ara">توماس برادواردين طبّق الرياضيات على الحركة، طوّر معادلات للسرعة والمسافة، وأثبت أن معظم
+              أفكار أرسطو عن الحركة كانت خاطئة.</div>
+            <button class="explain-toggle" data-target="exp3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9" />
+              </svg> اظهر الشرح
+            </button>
+            <div class="card-explain" id="exp3">
+              أرسطو كان بيقول مثلاً إن الجسم الأتقل بيوقع أسرع. برادواردين بالرياضيات بيّن إن ده غلط — واحتاج ٣٠٠ سنة بعده
+              عشان العلم يتخلص من فكرة أرسطو خالص.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- بطاقة 4 -->
+      <div class="card-wrapper">
+        <div class="study-card">
+          <div class="card-section-label">7. Science Picks Up Speed Again — عودة تقدم العلوم (1000–1500م)</div>
+          <div class="card-content">
+            <div class="card-eng">Nicholas of Cusa: first to break from Ptolemy's geocentric view; he correctly believed the
+              earth spins while it travels around the sun.</div>
+            <div class="card-ara">نيكولاس كوزا: أول من تخلّى عن النظرة الجيوسنترية لبطليموس؛ وآمن بصحة أن الأرض تدور حول نفسها
+              وحول الشمس.</div>
+            <div class="compare-box">
+              <div class="compare-label">جيوسنتريك vs هيليوسنتريك</div>
+              <p>
+                <strong>Geocentric (بطليموس):</strong> الأرض مركز الكون والشمس والكواكب تدور حولها<br><br>
+                <strong>Heliocentric (كوزا/كوبرنيكوس):</strong> الشمس المركز والأرض والكواكب تدور حولها
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- بطاقة 5 -->
+      <div class="card-wrapper">
+        <div class="study-card">
+          <div class="card-section-label">8. The Renaissance — عصر النهضة (1500–1660م)</div>
+          <div class="card-content">
+            <div class="card-eng">Nicolaus Copernicus published the heliocentric system: the sun is at the center, and all
+              planets (including Earth) travel around it. Also called the Copernican system. The Roman Catholic church
+              denounced his work and banned his book.</div>
+            <div class="card-ara">كوبرنيكوس نشر النظام الهيليوسنتريكي: الشمس في المركز وكل الكواكب (بما فيها الأرض) تدور
+              حولها. أدانت الكنيسة الكاثوليكية عمله وحظرت كتابه.</div>
+            <button class="explain-toggle" data-target="exp5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9" />
+              </svg> اظهر الشرح
+            </button>
+            <div class="card-explain" id="exp5">
+              كوبرنيكوس خلّص الكتاب قبل نشره بـ١٣ سنة — يعني كان خايف. الكنيسة اعتبرت إن الأرض مش المركز ده إهانة دينية، فحطّت
+              كتابه في قائمة الكتب المحظورة.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- بطاقة 6 -->
+      <div class="card-wrapper">
+        <div class="study-card">
+          <div class="card-section-label">8. The Renaissance — عصر النهضة (1500–1660م)</div>
+          <div class="card-content">
+            <div class="card-eng">Andreas Vesalius (1543): published the first book with detailed accurate illustrations of
+              the human body's organs, muscles, and skeleton — revolutionizing how medicine was taught.</div>
+            <div class="card-ara">أندرياس فيزاليوس (١٥٤٣م): نشر أول كتاب يحتوي رسومات دقيقة لأعضاء الجسم والعضلات والهيكل
+              العظمي — مما أحدث ثورة في تعليم الطب.</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- بطاقة 7 -->
+      <div class="card-wrapper">
+        <div class="study-card">
+          <div class="card-section-label">8. The Renaissance — عصر النهضة (1500–1660م)</div>
+          <div class="card-content">
+            <div class="card-eng">Johannes Kepler: deduced planetary orbits mathematically → Kepler's Laws. Key discovery:
+              planets travel in ellipses (oval paths), not circles. The sun sits at one focus of the ellipse, not at the
+              center.</div>
+            <div class="card-ara">يوهانس كيبلر: استنتج مدارات الكواكب رياضياً ← قوانين كيبلر. الاكتشاف الأساسي: الكواكب تسير
+              في قطع ناقصة (أوال) لا دوائر، والشمس في أحد بؤرتيها لا في المركز.</div>
+            <button class="explain-toggle" data-target="exp7">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9" />
+              </svg> اظهر الشرح
+            </button>
+            <div class="card-explain" id="exp7">
+              الإليبس (القطع الناقص) زي البيضة — مش دايرة كاملة. فيه نقطتين اسمهم foci (بؤرتان). مجموع المسافة من أي نقطة على
+              الإليبس للبؤرتين ثابت دايماً. الشمس مش في نص المدار، في البؤرة — ده معناه إن الأرض أحياناً أقرب للشمس وأحياناً
+              أبعد.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- بطاقة 8 -->
+      <div class="card-wrapper">
+        <div class="study-card">
+          <div class="card-section-label">8. The Renaissance — عصر النهضة (1500–1660م)</div>
+          <div class="card-content">
+            <div class="card-eng">Galileo Galilei: used the telescope (1609) to compile evidence for the heliocentric system.
+              He proved planets do not shine on their own — they reflect sunlight. The church put him on trial for heresy; he
+              obeyed and stopped promoting heliocentrism.</div>
+            <div class="card-ara">جاليليو جاليلي: استخدم التلسكوب (١٦٠٩م) لجمع أدلة على الهيليوسنتريك. أثبت أن الكواكب لا تضيء
+              بنفسها بل تعكس ضوء الشمس. حاكمته الكنيسة بتهمة الهرطقة فأطاع وتوقف عن الترويج.</div>
+            <button class="explain-toggle" data-target="exp8">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9" />
+              </svg> اظهر الشرح
+            </button>
+            <div class="card-explain" id="exp8">
+              جاليليو مش هو اللي اخترع التلسكوب — سمع وصفه وبناه بنفسه وادّعى الاختراع. والتلسكوب الحقيقي اسم مخترعه ضاع من
+              التاريخ. رغم كده، جاليليو هو اللي استخدمه علمياً بشكل جدي لأول مرة.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- بطاقة 9 -->
+      <div class="card-wrapper">
+        <div class="study-card">
+          <div class="card-section-label">8. The Renaissance — عصر النهضة (1500–1660م)</div>
+          <div class="card-content">
+            <div class="card-eng">Blaise Pascal (mid-1600s): demonstrated atmospheric pressure (air exerts pressure on
+              everything) and Pascal's Law in fluids — which enabled hydraulic lifts.</div>
+            <div class="card-ara">بليز باسكال (منتصف ١٦٠٠م): أثبت الضغط الجوي (الهواء يضغط على كل شيء) وقانون باسكال في
+              السوائل — الذي أتاح اختراع الرافعات الهيدروليكية.</div>
+            <button class="explain-toggle" data-target="exp9">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9" />
+              </svg> اظهر الشرح
+            </button>
+            <div class="card-explain" id="exp9">
+              قانون باسكال: لو ضغطت على سائل في إناء مغلق، الضغط بيتوزع بالتساوي على كل الاتجاهات. الرافعة الهيدروليكية عند
+              الميكانيكي شغلتها بالظبط على ده — قوة صغيرة ترفع عربية كاملة.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- EXAMPLE CARD STRUCTURE:
+
+      <div class="card-wrapper">
+        <div class="study-card">
+          <div class="card-section-label">Section Name</div>
+          <div class="card-content">
+            <div class="card-eng">English sentence here.</div>
+            <div class="card-ara">الترجمة العربية هنا.</div>
+            <button class="explain-toggle" data-target="expX">▼ اظهر الشرح</button>
+            <div class="card-explain" id="expX">
+              الشرح هنا لو محتاج.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      -->
+
+      <!-- LAST CARD — Questions & PDF links -->
+      <div class="card-wrapper">
+       
+            </div>
+          </div>
+        </div>
+        <div style="padding:0 0 16px">
+          <!-- <a href="https://gemini.google.com/share/97a0b18a4161" target="_blank" class="questions-btn"> -->
+        
+          
+        </div>
+      </div>
+
+    </div>
+
+    <div class="completion-screen" id="completionScreen">
+      <div class="completion-icon">🎉</div>
+      <h2 class="completion-title">خلصت المحاضرة!</h2>
+      <p class="completion-sub">عظيم — راجعت كل البطاقات.<br>دلوقتي حل الأسئلة وأكد فهمك.</p>
+      <div class="completion-actions">
+        <a href="https://gemini.google.com/share/97a0b18a4161" target="_blank" class="questions-btn"> أسئلة المحاضرة</a>
+        <a href="<!-- PDF LINK LEC 4 -->"      target="_blank" class="pdf-btn"> تحميل المذكرة</a>
+        <a href="lec-5.html" class="pdf-btn" style="margin-top:4px">→ المحاضرة التالية</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="cards-nav">
+  <div class="container">
+    <button class="nav-btn" id="btnPrev" disabled><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg> <span>السابق</span></button>
+    <div class="nav-center"><span id="currentCard">1</span> / <span id="totalCards"></span></div>
+    <button class="nav-btn primary" id="btnNext"><span>التالي</span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+  </div>
+</div>
+
+<script src="../../js/cards.js"></script>
+</body>
+</html>
