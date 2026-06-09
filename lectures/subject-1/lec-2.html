@@ -4,15 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LEC 2 - StudyVerse</title>
+  <title>LEC 2 — The Foundations of Greek Scientific Thought | StudyVerse</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link
     href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Space+Grotesk:wght@500;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="../../css/main.css">
+<link rel="stylesheet" href="../../css/main.css">
 </head>
 
 <body>
+
   <div class="bg-pattern"></div>
   <div class="orb orb-1"></div>
   <div class="orb orb-2"></div>
@@ -20,14 +21,16 @@
   <div class="cards-topbar">
     <div class="container">
       <div class="topbar-inner">
-        <a href="index.html" class="back-btn" style="margin:0"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-            height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-            stroke-linejoin="round">
+        <a href="index.html" class="back-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <path d="m9 18 6-6-6-6" />
-          </svg> المحاضرات</a>
+          </svg>
+          المحاضرات
+        </a>
         <div style="text-align:center">
-          <div class="topbar-title">LEC 2 - The Foundations of Greek Scientific Thought</div>
-          <div class="topbar-meta">بطاقة <span id="currentCard">1</span> من <span id="totalCards"></span></div>
+          <div class="topbar-title">LEC 2 — Greek Scientific Thought</div>
+          <div class="topbar-meta">بطاقة <span id="currentCardTop">1</span> من <span id="totalCardsTop"></span></div>
         </div>
         <div style="min-width:60px"></div>
       </div>
@@ -41,24 +44,20 @@
     <div class="container">
       <div class="cards-viewport" id="cardsViewport" style="padding-top:24px">
 
-
-        <!-- =====================================================
-     LEC 2 — A Brief History of Science | تاريخ العلوم
-     ===================================================== -->
-
         <!-- CARD 1 -->
         <div class="card-wrapper">
+          <div class="card-counter">بطاقة <strong id="cardCounter">1</strong> من 10</div>
           <div class="study-card">
             <div class="card-section-label">3. True Science Begins to Emerge — بداية العلم الحقيقي</div>
             <div class="card-content">
               <div class="card-eng">
-                In the 6th century B.C., three individuals — Thales, Anaximander, and Anaximenes — are considered
-                humanity's
-                first real scientists.
+                In the 6th century B.C., three individuals — <strong>Thales, Anaximander, and Anaximenes</strong> — are
+                considered by many historians to be humanity's first real scientists. They began moving away from
+                mythology and toward rational explanations of the natural world.
               </div>
               <div class="card-ara">
-                في القرن السادس قبل الميلاد، يُعدّ ثاليس وأناكسيماندر وأناكسيمينيس أوائل العلماء الحقيقيين في تاريخ
-                البشرية.
+                في القرن السادس قبل الميلاد ظهر تلات علماء يونانيين اتعتبروا أول علما حقيقيين في التاريخ — <strong>ثاليس
+                  وأناكسيماندر وأناكسيمينيس</strong>. دول بدأوا يفسروا الطبيعة بالعقل بدل الأساطير.
               </div>
             </div>
           </div>
@@ -67,15 +66,27 @@
         <!-- CARD 2 -->
         <div class="card-wrapper">
           <div class="study-card">
-            <div class="card-section-label">3. True Science Begins to Emerge — بداية العلم الحقيقي</div>
+            <div class="card-section-label">3. Thales — ثاليس ودراسة السماء</div>
             <div class="card-content">
               <div class="card-eng">
-                Thales studied the heavens and correctly predicted a solar eclipse — the short-term disappearance of the
-                sun
-                caused by the moon blocking it.
+                <strong>Thales</strong> studied the heavens and tried to find a unifying explanation for the movement of
+                planets and stars. He became famous for correctly predicting a <strong>solar eclipse</strong> — the moon
+                moving between the earth and the sun, blocking the sun from view.
               </div>
               <div class="card-ara">
-                ثاليس درس السماء وتنبّأ بشكل صحيح بكسوف الشمس — وهو اختفاء مؤقت للشمس بسبب مرور القمر أمامها.
+                ثاليس اشتغل على السماء وحاول يفهم حركة الكواكب والنجوم. بقى مشهور لما توقع صح <strong>كسوف
+                  الشمس</strong> — وده لما القمر بييجي بين الأرض والشمس ويحجبها. كان ده إنجاز ضخم جداً في وقته.
+              </div>
+              <button class="explain-toggle" data-target="exp1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+                اظهر الشرح
+              </button>
+              <div class="card-explain" id="exp1">
+                تخيل إنك في زمن مفيش فيه تلسكوبات ولا حسابات حديثة، وتقدر تقول للناس "بكره الشمس هتختفي شوية" وييجي
+                الكلام صح! ده اللي عمله ثاليس — وده أثبت إن الطبيعة بتتبع قوانين ممكن نفهمها.
               </div>
             </div>
           </div>
@@ -84,26 +95,26 @@
         <!-- CARD 3 -->
         <div class="card-wrapper">
           <div class="study-card">
-            <div class="card-section-label">3. True Science Begins to Emerge — بداية العلم الحقيقي</div>
+            <div class="card-section-label">3. Anaximander & Anaximenes — نظريات الحياة والمادة</div>
             <div class="card-content">
               <div class="card-eng">
-                Anaximander was the first scientist to explain the origin of the human race without reference to a
-                creator — he
-                believed all life began in the sea, and humans were once a type of fish.
+                <strong>Anaximander</strong> was the first scientist to try to explain the origin of human life without
+                a creator — he believed life began in the sea and humans once were fish-like creatures.
+                <strong>Anaximenes</strong> believed all things were made of air; thinned air becomes fire, thickened
+                air becomes liquid or solid — an idea that eventually led to the concept of <strong>atoms</strong>.
               </div>
               <div class="card-ara">
-                أناكسيماندر كان أول عالم يحاول تفسير أصل البشر بدون الرجوع لخالق — اعتقد أن كل الحياة بدأت في البحر وأن
-                البشر
-                كانوا يوماً ما نوعاً من الأسماك.
+                <strong>أناكسيماندر</strong> كان أول حد يحاول يشرح أصل الإنسان من غير ما يذكر خالق — اعتقد إن الحياة
+                بدأت في البحر وإن البشر كانوا نوع من السمك. <strong>أناكسيمينيس</strong> قال إن كل الأشياء مصنوعة من
+                الهواء؛ الهواء لما يتخفف بيبقى نار، ولما يتكثف بيبقى سايل أو صلب — وده فكره أدت لاكتشاف مفهوم
+                <strong>الذرات</strong>.
               </div>
-              <button class="explain-toggle" data-target="exp3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="6 9 12 15 18 9" />
-                </svg> اظهر الشرح
-              </button>
-              <div class="card-explain" id="exp3">
-                زي فكرة التطور — حاول يفسر الحياة علمياً من غير ما يقول "ربنا خلقها"، وده كان جريء جداً في وقته.
+              <div class="compare-box">
+                <div class="compare-label">مقارنة: أناكسيماندر vs أناكسيمينيس</div>
+                <p>
+                  <strong>أناكسيماندر:</strong> مهتم بأصل الحياة والإنسان — قال إننا جينا من البحر.<br><br>
+                  <strong>أناكسيمينيس:</strong> مهتم بتركيب المادة — قال إن كل حاجة أصلها هواء.
+                </p>
               </div>
             </div>
           </div>
@@ -112,17 +123,31 @@
         <!-- CARD 4 -->
         <div class="card-wrapper">
           <div class="study-card">
-            <div class="card-section-label">3. True Science Begins to Emerge — بداية العلم الحقيقي</div>
+            <div class="card-section-label">3. Leucippus & Democritus — أبو نظرية الذرة</div>
             <div class="card-content">
               <div class="card-eng">
-                Anaximenes believed air was the most basic substance in nature and all things were made of it — this
-                idea
-                eventually led to one of the most important scientific concepts: the atom.
+                <strong>Leucippus</strong> proposed that all matter is made of tiny units called
+                <strong>"atoms"</strong> — earning him the title "father of atomic theory." <strong>Democritus</strong>
+                illustrated this by comparing matter to sand: from far away sand looks smooth and solid, but up close
+                it's made of countless tiny grains. He argued all matter, even solid wood, is really made of individual
+                particles.
               </div>
               <div class="card-ara">
-                أناكسيمينيس اعتقد أن الهواء هو المادة الأساسية في الطبيعة وأن كل شيء مصنوع منه — وهذه الفكرة أدت في
-                النهاية إلى
-                مفهوم الذرة.
+                <strong>ليوسيبوس</strong> اقترح إن كل المادة مكونة من وحدات صغيرة جداً اسمها <strong>"ذرات"</strong> —
+                وعشان كده بيتقال إنه "أبو نظرية الذرة". <strong>ديموقريطس</strong> شرح الفكرة بمثال الرمل: من بعيد الرمل
+                يبان ناعم وصلب، لكن لما تقترب تلاقيه حبيبات صغيرة. قال إن كل المادة كده، حتى الخشب الصلب، في الحقيقة
+                مكون من جسيمات صغيرة.
+              </div>
+              <button class="explain-toggle" data-target="exp2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+                اظهر الشرح
+              </button>
+              <div class="card-explain" id="exp2">
+                الفكرة دي كانت ثورية جداً في وقتها! ديموقريطس مش عنده ميكروسكوب ولا أي أدوات — بس بالتفكير المنطقي وصل
+                لنفس الفكرة اللي علم القرن العشرين أثبتها. مثل الرمل ده من أبسط وأجمل الأمثلة في تاريخ العلم.
               </div>
             </div>
           </div>
@@ -131,15 +156,27 @@
         <!-- CARD 5 -->
         <div class="card-wrapper">
           <div class="study-card">
-            <div class="card-section-label">3. True Science Begins to Emerge — بداية العلم الحقيقي</div>
+            <div class="card-section-label">3. Density & Atomic Motion — الكثافة وحركة الذرات</div>
             <div class="card-content">
               <div class="card-eng">
-                Leucippus proposed that all matter is made up of tiny units called "atoms." He is known as the father of
-                atomic
-                theory.
+                <strong>Density</strong>: how tightly atoms are packed in a substance. High density = tightly packed;
+                low density = loosely packed. This explains why liquids layer (oil on top, water in middle, syrup at
+                bottom).<br><br>
+                <strong>Atomic Motion</strong>: atoms are always moving. Hot substances have faster-moving atoms — this
+                is why food coloring mixes quickly in hot water but slowly in cold water.
               </div>
               <div class="card-ara">
-                لويكيبوس اقترح أن كل المادة مكونة من وحدات صغيرة تُسمى "ذرات". ويُعرف بأبي النظرية الذرية.
+                <strong>الكثافة</strong>: بتقيس إزاي الذرات متقاربة جوه المادة. كثافة عالية = ذرات متضامة. كثافة واطية =
+                ذرات أبعد عن بعض. ده بيفسر ليه السوايل بتترتب في طبقات في الكوباية.<br><br>
+                <strong>حركة الذرات</strong>: الذرات دايماً في حركة. المادة الساخنة ذراتها أسرع — ولذلك ألوان الأكل
+                بتمتزج بسرعة في الماء الساخن وببطء في البارد.
+              </div>
+              <div class="compare-box">
+                <div class="compare-label">ترتيب الكثافة — من الأقل للأكثر</div>
+                <p>
+                  <strong>الأقل كثافة:</strong> الفلّين → زيت نباتي → مكعب ثلج → ماء → عنبة → شراب → صخرة
+                  <strong>(الأعلى كثافة)</strong>
+                </p>
               </div>
             </div>
           </div>
@@ -148,28 +185,31 @@
         <!-- CARD 6 -->
         <div class="card-wrapper">
           <div class="study-card">
-            <div class="card-section-label">3. True Science Begins to Emerge — بداية العلم الحقيقي</div>
+            <div class="card-section-label">3. Democritus: Right & Wrong — صح وغلط عند ديموقريطس</div>
             <div class="card-content">
               <div class="card-eng">
-                Democritus believed all matter — even apparently solid objects — is composed of tiny individual
-                particles, just
-                as sand is made of grains.
+                Democritus was <strong>right</strong> that: (1) all matter is made of atoms, and (2) atoms are in
+                constant motion.<br><br>
+                But he was <strong>wrong</strong> that: atoms are indestructible (nuclear energy proves they can be
+                split), and that atoms differ mainly in shape and size (we now know atoms of different elements differ
+                in fundamental ways, and are too tiny to see — about 100 quintillion fit on a pinhead).
               </div>
               <div class="card-ara">
-                ديموقريطس اعتقد أن كل المادة — حتى الأجسام الصلبة — مكونة من جسيمات صغيرة منفردة، تماماً كما يتكون الرمل
-                من
-                حبيبات.
+                ديموقريطس كان <strong>صح</strong> في: (1) إن كل المادة مكونة من ذرات، و(2) إن الذرات في حركة
+                مستمرة.<br><br>
+                لكنه كان <strong>غلط</strong> في: إن الذرات مش قابلة للتكسير — لأن الطاقة النووية أثبتت إننا نقدر نكسر
+                الذرة. وإن الذرات بتختلف بس في الشكل والحجم — احنا دلوقتي عارفين إن الاختلافات أعمق من كده بكتير.
               </div>
-              <button class="explain-toggle" data-target="exp6">
+              <button class="explain-toggle" data-target="exp3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <polyline points="6 9 12 15 18 9" />
-                </svg> اظهر الشرح
+                </svg>
+                اظهر الشرح
               </button>
-              <div class="card-explain" id="exp6">
-                لما تبص للرمل من بعيد يبان ناعم — لكن لما تقرب تلاقي حبيبات. ديموقريطس قال المادة كلها زي كده، متكونة من
-                جسيمات
-                صغيرة مش مرئية.
+              <div class="card-explain" id="exp3">
+                مهم تعرف إن العلم مش بيعيب العالِم لو غلط — المهم إنه استخدم المنطق والملاحظة. ديموقريطس وصل لأفكار
+                عبقرية من غير أدوات حديثة، وحتى لو غلط في تفاصيل، الفكرة الأساسية بتاعته (الذرات) صح 100%.
               </div>
             </div>
           </div>
@@ -178,16 +218,18 @@
         <!-- CARD 7 -->
         <div class="card-wrapper">
           <div class="study-card">
-            <div class="card-section-label">3. True Science Begins to Emerge — بداية العلم الحقيقي</div>
+            <div class="card-section-label">4. Aristotle — أرسطو: أبو علوم الحياة</div>
             <div class="card-content">
               <div class="card-eng">
-                Density: a measure of how tightly atoms are packed in a substance. High density = tightly packed. Low
-                density =
-                loosely packed.
+                <strong>Aristotle</strong> is called the "father of the life sciences." He wrote on philosophy,
+                mathematics, logic, and physics, but his greatest contribution was <strong>classifying</strong> plants
+                and animals into an organized, easy-to-reference system — the first large-scale attempt in history.
+                Classification is essential because facts become hard to use unless arranged in a systematic way.
               </div>
               <div class="card-ara">
-                الكثافة: مقياس لمدى تقارب الذرات في مادة ما. كثافة عالية = ذرات متقاربة جداً. كثافة منخفضة = ذرات
-                متباعدة.
+                <strong>أرسطو</strong> بيتقال عليه "أبو علوم الحياة". كتب في الفلسفة والرياضيات والمنطق والفيزياء، لكن
+                أعظم إنجازاته كانت <strong>تصنيف</strong> النباتات والحيوانات في نظام منظم وسهل الرجوع إليه — أول محاولة
+                من نوعها في التاريخ. التصنيف ضروري عشان المعلومات الكتير مش بتنفع إلا لو متنظمة.
               </div>
             </div>
           </div>
@@ -196,26 +238,31 @@
         <!-- CARD 8 -->
         <div class="card-wrapper">
           <div class="study-card">
-            <div class="card-section-label">3. True Science Begins to Emerge — بداية العلم الحقيقي</div>
+            <div class="card-section-label">4. Spontaneous Generation — التوليد التلقائي</div>
             <div class="card-content">
               <div class="card-eng">
-                Democritus was right that all matter is made of atoms and atoms are in constant motion — but wrong that
-                atoms
-                are indestructible or that they differ only in shape and size.
+                Aristotle also promoted <strong>spontaneous generation</strong> — the false idea that living organisms
+                can form from non-living substances. He believed maggots formed from rotting meat and eels formed from
+                river mud. This wrong idea lasted over <strong>2,000 years</strong> until 1870, showing how even
+                brilliant scientists can hold back science with incorrect theories.
               </div>
               <div class="card-ara">
-                ديموقريطس أصاب في أن المادة كلها مكونة من ذرات وأنها في حركة مستمرة — لكن أخطأ في اعتقاده أنها لا تُكسر
-                وأن
-                الفرق بينها فقط في الشكل والحجم.
+                أرسطو كمان نادى بفكرة <strong>التوليد التلقائي</strong> — وهي الفكرة الغلط إن الكائنات الحية ممكن تتكون
+                من مواد غير حية. اعتقد إن الديدان بتتكون من اللحم الفاسد والثعابين من طين الأنهار. الفكرة دي الغلطانة
+                فضلت سايدة أكتر من <strong>2000 سنة</strong> لحد 1870 — دليل إن حتى العباقرة ممكن يعيقوا العلم بأفكار
+                خاطئة.
               </div>
-              <div class="compare-box">
-                <div class="compare-label">الصح والغلط عند ديموقريطس</div>
-                <p>
-                  <strong>✅ أصاب في:</strong> كل المادة مكونة من ذرات — والذرات في حركة مستمرة دائماً.<br><br>
-                  <strong>❌ أخطأ في:</strong> اعتقد أن الذرات لا تُكسر (القنبلة الذرية أثبتت العكس) — واعتقد أن الفرق
-                  بينها
-                  يعتمد على الشكل والحجم فقط.
-                </p>
+              <button class="explain-toggle" data-target="exp4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+                اظهر الشرح
+              </button>
+              <div class="card-explain" id="exp4">
+                تجربة ريدي المشهورة دحضت التوليد التلقائي: استخدم تلات برطمانات فيهم لحم فاسد — واحد مفتوح، واحد مغطى
+                بشبك، وواحد مغلق تماماً. الدودة ظهرت بس في البرطمانات اللي الدبان قدر يوصل للحم فيها، والمغلق ما عملش
+                ديدان خالص — يعني الديدان مش بتتكون لوحدها!
               </div>
             </div>
           </div>
@@ -224,17 +271,31 @@
         <!-- CARD 9 -->
         <div class="card-wrapper">
           <div class="study-card">
-            <div class="card-section-label">4. Three Other Notable Greek Scientists — ثلاثة علماء يونانيين بارزين</div>
+            <div class="card-section-label">4. Archimedes — أرخميدس واكتشاف الإزاحة</div>
             <div class="card-content">
               <div class="card-eng">
-                Aristotle is called the father of the life sciences. He was the first to make a large-scale attempt at
-                the
-                classification of animals and plants into an organized, easy-to-reference system.
+                <strong>Archimedes</strong> applied mathematics to physical phenomena and was the first to predict
+                whether objects float in liquids. His most famous discovery came while bathing: an object immersed in
+                water <strong>displaces water equal to its own volume</strong>. He used this to verify if King Hiero's
+                crown was pure gold — and was so excited he ran through the streets shouting <strong>"Eureka!" (I have
+                  found it!)</strong> — forgetting to put on clothes.
               </div>
               <div class="card-ara">
-                أرسطو يُلقَّب بأبي العلوم الحياتية. كان أول من قام بمحاولة واسعة لتصنيف النباتات والحيوانات في نظام منظم
-                سهل
-                الرجوع إليه.
+                <strong>أرخميدس</strong> طبّق الرياضيات على الظواهر الطبيعية وكان أول حد يقدر يتنبأ بإذا كانت الأجسام
+                هتعوم ولا لأ. اكتشافه الأشهر جاله وهو في الحمام: الجسم اللي بينغمس في الماء <strong>بيزيح ماء بنفس
+                  حجمه</strong>. استخدم الفكرة دي عشان يعرف إذا كان تاج الملك هيرو دهب خالص — وكان مبسوط جداً لدرجة إنه
+                جرى في الشوارع وهو صايح <strong>"يوريكا!" (لقيتها!)</strong> ناسي إنه ملبيش هدومه!
+              </div>
+              <button class="explain-toggle" data-target="exp5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+                اظهر الشرح
+              </button>
+              <div class="card-explain" id="exp5">
+                الفكرة إنه لو وزن التاج وقاس الماء اللي زاحه، يقدر يحسب كثافته ويقارنها بكثافة الدهب. لو الكثافة مختلفة،
+                يبقى في معدن تاني متخلط. الطريقة دي بسيطة وعبقرية في نفس الوقت — ودي من أجمل حاجات في تاريخ العلم.
               </div>
             </div>
           </div>
@@ -243,155 +304,87 @@
         <!-- CARD 10 -->
         <div class="card-wrapper">
           <div class="study-card">
-            <div class="card-section-label">4. Three Other Notable Greek Scientists — ثلاثة علماء يونانيين بارزين</div>
+            <div class="card-section-label">4. Ptolemy & The Geocentric System — بطليموس والنظام الجيوسنتري</div>
             <div class="card-content">
               <div class="card-eng">
-                Spontaneous generation: Aristotle's wrong idea that living organisms can form spontaneously from
-                non-living
-                substances. This false idea lasted over 2,000 years until 1870.
+                <strong>Ptolemy</strong> (100 A.D.) believed the <strong>earth was at the center of the
+                  universe</strong> (geocentric system), with planets and stars orbiting in circles. This system was
+                accepted for over <strong>1,500 years</strong>, partly because the Church supported it. This episode
+                teaches us: scientific theories must be accepted or rejected <strong>based on data alone</strong>, not
+                on authority, religion, or bias.
               </div>
               <div class="card-ara">
-                التولد التلقائي: فكرة أرسطو الخاطئة بأن الكائنات الحية يمكن أن تتكون تلقائياً من مواد غير حية. استمرت
-                هذه الفكرة
-                أكثر من 2000 سنة حتى عام 1870.
+                <strong>بطليموس</strong> (100 م) اعتقد إن <strong>الأرض في مركز الكون</strong> (النظام الجيوسنتري)
+                والكواكب والنجوم بتدور حواليها في دوايرـ. النظام ده اتقبل لأكتر من <strong>1500 سنة</strong> جزئياً لأن
+                الكنيسة دعمته. الدرس من الحكاية دي: النظريات العلمية لازم تتقبل أو ترفض <strong>بناءً على البيانات
+                  والدليل بس</strong>، مش على السلطة أو التحيز الشخصي.
               </div>
-              <button class="explain-toggle" data-target="exp10">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="6 9 12 15 18 9" />
-                </svg> اظهر الشرح
-              </button>
-              <div class="card-explain" id="exp10">
-                أرسطو كان بيقول إن الديدان بتتولد من اللحم الفاسد من وحده! ده كان غلط طبعاً لكن اسمه كان كبير جداً
-                فالناس صدقته
-                2000 سنة كاملة.
+              <div class="compare-box">
+                <div class="compare-label">مقارنة: جيوسنتري vs هيليوسنتري</div>
+                <p>
+                  <strong>النظام الجيوسنتري (بطليموس):</strong> الأرض في المنتصف، كل حاجة بتدور حواليها — غلط.<br><br>
+                  <strong>النظام الهيليوسنتري (الصح):</strong> الشمس في المنتصف والأرض والكواكب بتدور حواليها — ده اللي
+                  العلم الحديث أثبته.
+                </p>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- CARD 11 -->
-        <div class="card-wrapper">
-          <div class="study-card">
-            <div class="card-section-label">4. Three Other Notable Greek Scientists — ثلاثة علماء يونانيين بارزين</div>
-            <div class="card-content">
-              <div class="card-eng">
-                Archimedes applied mathematical formulas to science. He discovered that an object immersed in water
-                displaces a
-                volume of water equal to its own volume — a discovery he made in the bath and celebrated by shouting
-                "Eureka!"
-                (I have found it).
-              </div>
-              <div class="card-ara">
-                أرخميدس طبّق الصيغ الرياضية على العلم. اكتشف أن الجسم المغمور في الماء يُزيح كمية من الماء مساوية لحجمه
-                — اكتشاف
-                توصّل إليه في الحمام وصرخ "يوريكا!" (وجدتها).
-              </div>
-            </div>
-          </div>
-        </div>
+      </div><!-- end cardsViewport -->
 
-        <!-- CARD 12 -->
-        <div class="card-wrapper">
-          <div class="study-card">
-            <div class="card-section-label">4. Three Other Notable Greek Scientists — ثلاثة علماء يونانيين بارزين</div>
-            <div class="card-content">
-              <div class="card-eng">
-                Ptolemy proposed the geocentric (Ptolemaic) system: the earth is at the center of the universe and all
-                planets
-                and stars orbit around it. This was accepted as correct until the 1700s.
-              </div>
-              <div class="card-ara">
-                بطليموس اقترح النظام الجيوسنتري (البطلمي): الأرض في مركز الكون وكل الكواكب والنجوم تدور حولها. ظلّ هذا
-                النظام
-                مقبولاً حتى القرن الثامن عشر.
-              </div>
-              <button class="explain-toggle" data-target="exp12">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="6 9 12 15 18 9" />
-                </svg> اظهر الشرح
-              </button>
-              <div class="card-explain" id="exp12">
-                الكنيسة دعمت الفكرة دي وقالت "ربنا خلق الإنسان يعني الأرض لازم تكون في المنتصف" — وده أخّر العلم كتير
-                لأنهم
-                رفضوا أي دليل عكسي.
-              </div>
-            </div>
-          </div>
+      <div class="completion-screen" id="completionScreen">
+        <div class="completion-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+            <polyline points="22 4 12 14.01 9 11.01" />
+          </svg>
         </div>
-
-        <!-- CARD 13 -->
-        <div class="card-wrapper">
-          <div class="study-card">
-            <div class="card-section-label">4. Three Other Notable Greek Scientists — ثلاثة علماء يونانيين بارزين</div>
-            <div class="card-content">
-              <div class="card-eng">
-                Key lesson from history: the acceptance or rejection of a scientific theory must rest solely on data and
-                evidence — not on personal beliefs, authority figures, or bias.
-              </div>
-              <div class="card-ara">
-                درس مهم من التاريخ: قبول أو رفض أي نظرية علمية يجب أن يعتمد فقط على البيانات والأدلة — وليس على
-                المعتقدات
-                الشخصية أو سلطة العلماء أو التحيز.
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- EXAMPLE CARD STRUCTURE:
-
-      <div class="card-wrapper">
-        <div class="study-card">
-          <div class="card-section-label">Section Name</div>
-          <div class="card-content">
-            <div class="card-eng">English sentence here.</div>
-            <div class="card-ara">الترجمة العربية هنا.</div>
-            <button class="explain-toggle" data-target="expX">▼ اظهر الشرح</button>
-            <div class="card-explain" id="expX">
-              الشرح هنا لو محتاج.
-            </div>
-          </div>
+        <h2 class="completion-title">خلصت المحاضرة!</h2>
+        <p class="completion-sub">عظيم — راجعت كل البطاقات.<br>جاهز للمحاضرة الجاية؟</p>
+        <div class="completion-actions">
+          <a href="https://gemini.google.com/share/3e5a1cb128b3" target="_blank" class="questions-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+              <path d="M12 17h.01" />
+            </svg>
+            أسئلة المحاضرة
+          </a>
+          <a href="lec-3.html" class="pdf-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m15 18-6-6 6-6" />
+            </svg>
+            المحاضرة التالية
+          </a>
         </div>
       </div>
 
-      -->
-
-      </div>
-
-    </div>
-
-    <div class="completion-screen" id="completionScreen">
-      <div class="completion-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none">
-          <circle cx="12" cy="12" r="12" fill="#2dd4bf" />
-          <polyline points="5,12 10,17 19,7" stroke="white" stroke-width="2.5" stroke-linecap="round"
-            stroke-linejoin="round" />
-        </svg>
-      </div>
-      <h2 class="completion-title">خلصت المحاضرة!</h2>
-      <p class="completion-sub">عظيم — راجعت كل البطاقات.<br>دلوقتي حل الأسئلة وأكد فهمك.</p>
-      <div class="completion-actions">
-        <a href="https://gemini.google.com/share/3e5a1cb128b3" target="_blank" class="questions-btn"> أسئلة المحاضرة</a>
-        <a href="<!-- PDF LINK LEC 2 -->" target="_blank" class="pdf-btn"> تحميل المذكرة</a>
-        <a href="lec-3.html" class="pdf-btn" style="margin-top:4px">→ المحاضرة التالية</a>
-      </div>
-    </div>
     </div>
   </main>
 
   <div class="cards-nav">
     <div class="container">
-      <button class="nav-btn" id="btnPrev" disabled><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-          viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-          stroke-linejoin="round">
+      <button class="nav-btn" id="btnPrev" disabled>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="m9 18 6-6-6-6" />
-        </svg> <span>السابق</span></button>
-      <div class="nav-center"><span id="currentCard"></span> <span id="totalCards"></span></div>
-      <button class="nav-btn primary" id="btnNext"><span>التالي</span> <svg xmlns="http://www.w3.org/2000/svg"
-          width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-          stroke-linecap="round" stroke-linejoin="round">
+        </svg>
+        <span>السابق</span>
+      </button>
+      <div class="nav-center">
+        <span id="currentCard">1</span> / <span id="totalCards"></span>
+      </div>
+      <button class="nav-btn primary" id="btnNext">
+        <span>التالي</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="m15 18-6-6 6-6" />
-        </svg></button>
+        </svg>
+      </button>
     </div>
   </div>
 
